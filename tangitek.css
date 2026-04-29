@@ -1,0 +1,272 @@
+/* New css modified by Adi based on Mrs. Kent's new webpage design template*/
+/* 06/01/2011*/
+div.main_menu{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width : 200px;
+}
+
+a#menulink1 {
+    display: block;
+    width: 169px;
+    height: 38px;
+    background-image: url(../images/navigation/1-Background-Home.gif);
+    margin: 0 auto
+}
+
+a#menulink2 {
+    display: block;
+    width: 170px;
+    height: 38px;
+    background-image: url(../images/navigation/2-Background-Products.gif);
+    margin: 0 auto;
+}
+
+a#menulink3 {
+    display: block;
+    width: 170px;
+    height: 38px;
+    background-image: url(../images/navigation/3-Background-WhitePaper.gif);
+    margin: 0 auto
+}
+
+a#menulink4 {
+    display: block;
+    width: 170px;
+    height: 35px;
+    background-image: url(../images/navigation/4-Background-TestData.gif);
+    margin: 0 auto;
+}
+
+a#menulink5 {
+    display: block;
+    width: 169px;
+    height: 34px;
+    background-image: url(../images/navigation/5-Background-Demo.gif);
+    margin: 0 auto;
+}
+
+a#menulink6 {
+    display: block;
+    width: 170px;
+    height: 40px;
+    background-image: url(../images/navigation/6-Background-FAQ.gif);
+    margin: 0 auto;
+}
+
+a#menulink7 {
+    display: block;
+    width: 169px;
+    height: 405px;
+    background-image: url(../images/navigation/Tangitek-Website-Sidebar-btm.gif);
+    margin: 0 auto;
+}
+
+a#menulink1:hover,a#menulink2:hover,
+a#menulink3:hover,a#menulink4:hover,
+a#menulink5:hover,a#menulink6:hover{
+    font-weight: bold;	
+    text-decoration: underline;
+    color: #FFFFFF;             /*WHITE*/
+}
+
+a{
+   font-variant: normal;
+   font-weight: bold;
+   text-decoration: none;
+   color: #000000;	            /*black*/
+}
+
+a:hover{
+   font-variant: normal;
+   font-weight: bold;	
+   text-decoration: underline;
+   color: #FFFFFF;              /*WHITE*/
+}
+
+a:active{
+   color: #FFFFFF;              /*WHITE*/
+}
+
+/* Next set of a styles are for left (.alt) and top menus (.topbtmbar)*/
+a .alt{
+    font-family: arial;
+    font-size: 10px;
+    color: #000000;                 /*black*/
+    position:relative;
+    left:36px;
+    top:12px;
+}
+
+a:hover .alt{
+   font-family: arial;
+   font-size: 11px;
+   color: #FFFFFF;
+}
+
+
+a .topbtmbar{
+    font-family: arial;
+    font-size: 10px;
+    color: #000000;               /*black*/
+}
+
+a:hover .topbtmbar{
+   font-family: arial;
+   font-size: 10px;
+   color: #FFFFFF;                  /*white*/
+}
+
+/* used for regular a in paras*/
+a .regular{
+   font-variant: normal;
+   font-weight: bold;
+   text-decoration: none;
+   color: #000000;	                /*black*/
+}
+
+a:hover .regular{
+   font-variant: small-caps;
+   font-weight: bold;	
+   text-decoration: underline;
+   color: #0081AA; 
+}
+
+a:active .regular{
+   color: #0081AA; 
+}
+
+
+div.mini_top_menu{
+   position:absolute;
+   left:270px;
+   top:15px;
+   width: 580px;
+   text-align: left;
+   background-image: url(../images/navigation/info-bar.gif);
+}
+
+div.maincontent{
+   border:0;   
+   width: 900px;
+}
+
+div.mini_btm_menu{
+   width: 580px;
+   text-align: left;
+   background-image: url(../images/navigation/info-bar.gif);
+}
+
+div.content{
+   position:absolute;
+   left:275px;
+   top:45px;
+   width: 600px; 
+   text-align: justify;
+}
+
+body{
+   font-family: arial;
+   line-height: 160%;
+   font-size: 12px;
+   color: #000000;	                /*black*/
+}
+
+h1{
+	font-family: arial;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #0081AA; 		           /*RGB NEW USED 00 129 170; OLD ADI LIKE RGB 102 164 105 - Tangi part*/
+	letter-spacing: -1px;
+	padding-top: 6px;
+	cursor: default;
+}
+
+h2{
+	font-family: arial;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	font-weight: bold;
+	color: #0081AA; 		            /*RGB NEW USED 00 129 170; OLD ADI LIKE RGB 102 164 105 - Tangi part*/
+	letter-spacing: -1px;
+	padding-top: 6px;
+	cursor: default;
+}
+	
+h3{
+	font-family: arial;
+	font-size: 13px;
+	font-weight: bold; 
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-decoration: overline;
+	font-style: oblique;
+        color: #0081AA; 		        /*RGB NEW USED 00 129 170; OLD ADI LIKE RGB 102 164 105 - Tangi part*/
+	padding: 2px 2px 3px 3px;
+	cursor: default;
+}
+
+h4{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+h5{
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+h6{
+	font-size: 10px;
+	font-weight: bold;
+}
+
+img{
+	border: none;
+}
+
+img.photo{
+	border:  none;
+    margin-top: 5px;
+    margin-left: 2px;
+	margin-bottom: 5px;    
+}
+
+p, ul, ol{
+	font-family: arial;
+	font-size: 12px;
+	line-height: 160%;
+	/*color: #156477;  OLD RGB 21, 100, 116  Tek part*/
+    color: #060606;
+}
+
+li > p {
+	margin-top: 3px;
+}
+	
+pre {
+	font-family: monospace;
+	font-size: 12px;
+}
+
+em.slogan
+{
+	font-size: 14px;
+	font-style: oblique;
+	color: #156477;                 /*RGB 21, 100, 116 */
+}
+
+.error
+{
+    font-family: arial;
+    color: red;
+    font-size: 10px;
+}
